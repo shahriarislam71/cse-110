@@ -1,5 +1,6 @@
 const prompt = require ("prompt-sync")();
 // Question-1
+// prompt is used to take user input from the user in javascript
 let num1 = parseInt(prompt("Enter number1"))
 let num2 = parseInt(prompt("Enter number2"))
 let sum = num1+num2
@@ -77,6 +78,7 @@ else{
 
 // Question-9
 let number1_9 = parseInt(prompt("Enter number1"))
+// Math.trunc is used to delete the number that is after the (.)value like Math.trunc(2.43)==2
 hours = Math.trunc(number1_9/3600)
 number1_9 = number1_9%3600
 minute = Math.trunc(number1_9/60)
@@ -160,7 +162,7 @@ if (velocity<60){
     console.log(velocity, "km/h","\nToo slow. Needs more changes.")
 }
 else if (velocity>=60 && velocity<=90){
-    console.log(Svelocity, "km/h","\nVelocity is okay. The car is ready!")
+    console.log(velocity, "km/h","\nVelocity is okay. The car is ready!")
 }
 else{
     console.log(velocity, "km/h","\nToo fast. Only a few changes should suffice.")
