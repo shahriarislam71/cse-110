@@ -283,3 +283,4 @@ while (i<=number_19){
     i+=1
     console.log(sum_19)
 }
+
